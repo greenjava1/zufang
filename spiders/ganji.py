@@ -32,7 +32,7 @@ class GanjiSpider(scrapy.Spider):
         size_list = response.xpath("//*[@class=\"list rel\"]/dd/div[2]/p[1]/text()").extract()
         name_list = response.xpath("//*[@class=\"list rel\"]/dd/p[3]/a/span/text()").extract()
         floor_list = response.xpath("//*[@class=\"list rel\"]/dd/p[2]/text()").extract()
-        url_list =  response.xpath('//*[@class="list rel"]/dd/p[1]/a/@href').extract()
+        url_list =  response.xpath('//*[@class="list rel"]/dd/p[1]/a/@href').extract() 
         print("=======================================================================================")
         #print (name_list)
         #print (floor_list)
