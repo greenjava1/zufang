@@ -17,6 +17,7 @@ class ZufangItem(scrapy.Item):
     #age = scrapy.Field()
     name = scrapy.Field()
     url =  scrapy.Field()
+    location  =  scrapy.Field()
     #location = scrapy.Field()
     # define the fields for your item here like:
     pass
